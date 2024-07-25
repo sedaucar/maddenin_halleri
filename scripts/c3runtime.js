@@ -4633,6 +4633,7 @@ self.C3_JsPropNameTable = [
 	{dogrutext: 0},
 	{yanlistext: 0},
 	{Sprite: 0},
+	{meb: 0},
 	{butonlar: 0},
 	{randomsoru: 0},
 	{dogru_sayisi: 0},
@@ -4670,6 +4671,7 @@ self.InstanceType = {
 	dogrutext: class extends self.ITextInstance {},
 	yanlistext: class extends self.ITextInstance {},
 	Sprite: class extends self.ISpriteInstance {},
+	meb: class extends self.ISpriteInstance {},
 	butonlar: class extends self.ISpriteInstance {}
 }
 }
